@@ -1,7 +1,21 @@
-font-size: 16px;
+<link href="\Users\dojes\Documents\info340\problem-set-01-jessdo\problem-a\css\style.css"
+rel = "stylesheet" />
+
+p {
+    font-size: 16px;
+}
+
 p.a {
     font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif'
 }
-line-height: 1.5;
-max-height: 400px;
-color: #00008B
+
+p {
+    line-height: 1.5;
+}
+img {
+    max-height: 400px;
+}
+
+ul {
+    color:blue
+}
