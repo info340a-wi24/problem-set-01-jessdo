@@ -28,6 +28,6 @@ FAIL problem-a/problem.spec.js
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        1.717 s
+Time:        1.478 s
 Ran all test suites matching /problem-a/i.
 
