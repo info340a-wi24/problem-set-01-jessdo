@@ -1,0 +1,33 @@
+$ jest problem-a
+FAIL Documents/info340/problem-set-01-jessdo/problem-a/problem.spec.js
+  ● Test suite failed to run
+
+    The name `ini` was looked up in the Haste module map. It cannot be resolved, because there exists several different files, or packages, that provide a module for that particular name and platform. The platform is generic (no extension). You must delete or exclude files until there remains only one of these:
+
+      * `C:\Users\dojes\Desktop\school\Microsoft VS Code\_\resources\app\extensions\ini\package.json` (package)
+      * `C:\Users\dojes\Desktop\school\Microsoft VS Code\resources\app\extensions\ini\package.json` (package)
+      * `C:\Users\dojes\Documents\cse332\IntelliJ IDEA 2023.3.2\plugins\textmate\lib\bundles\ini\package.json` (package)
+
+      4 |
+      5 | //include custom matchers
+    > 6 | const styleMatchers = require('jest-style-matchers');
+        |                       ^
+      7 | expect.extend(styleMatchers);
+      8 |
+      9 | const htmlPath = __dirname + '/index.html';
+
+      at ModuleMap._assertNoDuplicates (AppData/Roaming/npm/node_modules/jest/node_modules/jest-haste-map/build/ModuleMap.js:189:11)
+      at Object.<anonymous> (node_modules/global-prefix/index.js:13:13)
+      at Object.<anonymous> (node_modules/global-modules/index.js:11:16)
+      at Object.<anonymous> (node_modules/stylelint/lib/utils/getModulePath.js:4:23)
+      at Object.<anonymous> (node_modules/stylelint/lib/augmentConfig.js:4:23)
+      at Object.<anonymous> (node_modules/stylelint/lib/createStylelint.js:5:23)
+      at Object.<anonymous> (node_modules/stylelint/lib/index.js:5:25)
+      at Object.<anonymous> (node_modules/jest-style-matchers/index.js:5:19)
+      at Object.require (Documents/info340/problem-set-01-jessdo/problem-a/problem.spec.js:6:23)
+
+Test Suites: 1 failed, 1 total
+Tests:       0 total
+Snapshots:   0 total
+Time:        1.165 s
+Ran all test suites matching /problem-a/i.
