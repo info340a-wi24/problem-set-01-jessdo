@@ -1,5 +1,4 @@
-$ jest problem-a
-FAIL Documents/info340/problem-set-01-jessdo/problem-a/problem.spec.js
+FAIL problem-a/problem.spec.js
   ● Test suite failed to run
 
     The name `ini` was looked up in the Haste module map. It cannot be resolved, because there exists several different files, or packages, that provide a module for that particular name and platform. The platform is generic (no extension). You must delete or exclude files until there remains only one of these:
@@ -29,5 +28,6 @@ FAIL Documents/info340/problem-set-01-jessdo/problem-a/problem.spec.js
 Test Suites: 1 failed, 1 total
 Tests:       0 total
 Snapshots:   0 total
-Time:        1.165 s
+Time:        1.717 s
 Ran all test suites matching /problem-a/i.
+
